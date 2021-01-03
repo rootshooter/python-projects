@@ -15,8 +15,8 @@ try:
 	else:
 	    	print(colored("[*] Scan complete!", "green"))
 except socket.error:
-	print(colored("[-] Could not connect to the server!"), "red")
+	print(colored("[-] Could not connect to the server!", "red"))
 	sys.exit(0)
 except KeyboardInterrupt:
-	print(colored("[-] Scanning cancelled!"), "red")
+	print(colored("[-] Scanning cancelled!", "red"))
 	sys.exit(0)
