@@ -14,3 +14,7 @@ port_scan.py is a more advanced port scanner that accepts an IP address as an ar
 
 Usage: ./port_scan.py
 
+redir3ct.py is a script that automates Scapy to perform an ICMP Redirect attack allowing you to sniff traffic in a switched network. Must be run as root.
+
+Usage: sudo ./redir3ct.py
+
